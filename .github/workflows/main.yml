@@ -47,7 +47,7 @@ jobs:
           # Full git url to clone the repo
           GIT_URL: https://github.com/JoshuaSBrown/TestingSphinxReadTheDocsAction.git
           # tag or branch
-          GIT_TAG: master # optional, default is master
+          GIT_TAG: main # optional, default is master
           # version as named on the website
           VERSION: latest# optional, default is latest
           # requirements file for pip install
