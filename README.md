@@ -1,0 +1,2 @@
+# TestingSphinxReadTheDocsAction
+For testing purposes
