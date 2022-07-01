@@ -41,26 +41,26 @@ jobs:
         uses: DavidLeoni/readthedocs-to-actions@v1.2
         with:
           # ReadTheDocs project name - also used as name for pdfs and epubs. 
-          NOTE: you don't need to actually have a project on readthedocs servers!    
+          # NOTE: you don't need to actually have a project on readthedocs servers!    
 
-          RTD_PRJ_NAME: # default is myproject
+          RTD_PRJ_NAME: test_auto_sphinx # default is myproject
           # Full git url to clone the repo
-          GIT_URL: 
+          GIT_URL: https://github.com/JoshuaSBrown/TestingSphinxReadTheDocsAction.git
           # tag or branch
-          GIT_TAG: # optional, default is master
+          GIT_TAG: master # optional, default is master
           # version as named on the website
-          VERSION: # optional, default is latest
+          VERSION: latest# optional, default is latest
           # requirements file for pip install
-          REQUIREMENTS: # optional, default is requirements.txt
+          REQUIREMENTS: requirements.txt # optional, default is requirements.txt
           # Documentation language
-          LANGUAGE: # optional, default is en
+          LANGUAGE: en# optional, default is en
           # builds single page html for offline use. Requires built project to have readthedocs_ext.readthedocs  sphinx extension
-          RTD_HTML_SINGLE: # optional, default is true
+          RTD_HTML_SINGLE: true # optional, default is true
           # builds html exactly as in RTD website. Requires built project to have readthedocs_ext.readthedocs sphinx extension
-          RTD_HTML_EXT: # optional, default is true
+          RTD_HTML_EXT: true # optional, default is true
           # If you want to make Sphinx believe you are running on ReadTheDocs server, set this to 'True' (as RTD server does). NOTE: variable MUST be set to a string with capital first character, like 'True' or 'False'!
-          READTHEDOCS: # optional, default is True
+          READTHEDOCS: true# optional, default is True
           # A code like UA-123-123-123
-          GOOGLE_ANALYTICS: # optional, default is 
+          GOOGLE_ANALYTICS: true # optional, default is 
           
       
